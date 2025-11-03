@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Max Verstappen",
+    "team": "Red Bull Racing",
+    "nationality": "Dutch",
+    "wins": 68,
+    "podiums": 101,
+    "image": "images/max.webp"
+  },
+  {
+    "name": "Yuki Tsunoda",
+    "team": "Red Bull Racing",
+    "nationality": "Japanese",
+    "wins": 0,
+    "podiums": 0,
+    "image": "images/yuki.jpg"
+  },
+  {
+    "name": "Charles Leclerc",
+    "team": "Scuderia Ferrari",
+    "nationality": "Monégasque",
+    "wins": 5,
+    "podiums": 40,
+    "image": "images/leclerc.jpg"
+  },
+  {
+    "name": "Lewis Hamilton",
+    "team": "Scuderia Ferrari",
+    "nationality": "British",
+    "wins": 105,
+    "podiums": 202,
+    "image": "images/hamilton.jpg"
+  },
+  {
+    "name": "George Russell",
+    "team": "Mercedes-AMG F1",
+    "nationality": "British",
+    "wins": 4,
+    "podiums": 20,
+    "image": "images/grorge.webp"
+  },
+  {
+    "name": "Kimi Antonelli",
+    "team": "Mercedes-AMG F1",
+    "nationality": "Italian",
+    "wins": 0,
+    "podiums": 1,
+    "image": "images/kimi.jpg"
+  },
+  {
+    "name": "Lando Norris",
+    "team": "McLaren",
+    "nationality": "British",
+    "wins": 6,
+    "podiums": 25,
+    "image": "images/lando.png"
+  },
+  {
+    "name": "Oscar Piastri",
+    "team": "McLaren",
+    "nationality": "Australian",
+    "wins": 7,
+    "podiums": 18,
+    "image": "images/oscar.jpg"
+  },
+  {
+    "name": "Fernando Alonso",
+    "team": "Aston Martin Aramco",
+    "nationality": "Spanish",
+    "wins": 32,
+    "podiums": 106,
+    "image": "images/alonso.jpg"
+  },
+  {
+    "name": "Lance Stroll",
+    "team": "Aston Martin Aramco",
+    "nationality": "Canadian",
+    "wins": 0,
+    "podiums": 3,
+    "image": "images/lance.jpg"
+  },
+  {
+    "name": "Pierre Gasly",
+    "team": "BWT Alpine F1 Team",
+    "nationality": "French",
+    "wins": 1,
+    "podiums": 4,
+    "image": "images/piere.jpg"
+  },
+  {
+    "name": "Jack Doohan",
+    "team": "BWT Alpine F1 Team",
+    "nationality": "Australian",
+    "wins": 0,
+    "podiums": 0,
+    "image": "images/jack.webp"
+  },
+  {
+    "name": "Alex Albon",
+    "team": "Williams Racing",
+    "nationality": "Thai",
+    "wins": 0,
+    "podiums": 2,
+    "image": "images/alex.webp"
+  },
+  {
+    "name": "Carlos Sainz",
+    "team": "Williams Racing",
+    "nationality": "Spanish",
+    "wins": 3,
+    "podiums": 21,
+    "image": "images/carlos.webp"
+  },
+  {
+    "name": "Oliver Bearman",
+    "team": "Haas F1 Team",
+    "nationality": "British",
+    "wins": 0,
+    "podiums": 1,
+    "image": "images/oliver.avif"
+  },
+  {
+    "name": "Esteban Ocon",
+    "team": "Haas F1 Team",
+    "nationality": "French",
+    "wins": 1,
+    "podiums": 3,
+    "image": "images/ocon.webp"
+  },
+  {
+    "name": "Nico Hülkenberg",
+    "team": "Stake F1 Team Kick Sauber",
+    "nationality": "German",
+    "wins": 0,
+    "podiums": 1,
+    "image": "images/nico.jpg"
+  },
+  {
+    "name": "Gabriel Bortoleto",
+    "team": "Stake F1 Team Kick Sauber",
+    "nationality": "Brazilian",
+    "wins": 0,
+    "podiums": 0,
+    "image": "images/gabriel.jpg"
+  },
+  {
+    "name": "Liam Lawson",
+    "team": "Racing Bulls",
+    "nationality": "New Zealander",
+    "wins": 0,
+    "podiums": 1,
+    "image": "images/liam.webp"
+  },
+  {
+    "name": "Isack Hadjar",
+    "team": "Racing Bulls",
+    "nationality": "French",
+    "wins": 0,
+    "podiums": 1,
+    "image": "images/isack.webp"
+  }
+]

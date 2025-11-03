@@ -1,0 +1,171 @@
+
+[
+  {
+    "name": "Bahrain International Circuit",
+    "country": "Bahrain",
+    "laps": 57,
+    "length_km": 5.412,
+    "fun_fact": "Hosted the first-ever F1 night race in the Middle East.",
+    "image": "images/ciruits/Bahrain_Circuit.avif"
+  },
+  {
+    "name": "Jeddah Corniche Circuit",
+    "country": "Saudi Arabia",
+    "laps": 50,
+    "length_km": 6.174,
+    "fun_fact": "One of the fastest street circuits with average speeds over 250 km/h.",
+    "image": "images/ciruits/Saudi_Arabia_Circuit.avif"
+  },
+  {
+    "name": "Albert Park Circuit",
+    "country": "Australia",
+    "laps": 58,
+    "length_km": 5.278,
+    "fun_fact": "Set around a lake in Melbourne, combining street and park roads.",
+    "image": "images/ciruits/Australia_Circuit.avif"
+  },
+  {
+    "name": "Suzuka Circuit",
+    "country": "Japan",
+    "laps": 53,
+    "length_km": 5.807,
+    "fun_fact": "The only figure-eight layout on the F1 calendar.",
+    "image": "images/ciruits/Japan_Circuit.avif"
+  },
+  {
+    "name": "Circuit de Monaco",
+    "country": "Monaco",
+    "laps": 78,
+    "length_km": 3.337,
+    "fun_fact": "The most iconic and challenging street circuit in the world.",
+    "image": "images/ciruits/Monaco_Circuit.avif"
+  },
+  {
+    "name": "Autodromo Nazionale di Monza",
+    "country": "Italy",
+    "laps": 53,
+    "length_km": 5.793,
+    "fun_fact": "Known as the 'Temple of Speed' — the fastest track in F1.",
+    "image": "images/ciruits/Italy_Circuit.avif"
+  },
+  {
+    "name": "Circuit de Spa-Francorchamps",
+    "country": "Belgium",
+    "laps": 44,
+    "length_km": 7.004,
+    "fun_fact": "Home to the legendary Eau Rouge-Raidillon corner combination.",
+    "image": "images/ciruits/Belgium_Circuit.avif"
+  },
+  {
+    "name": "Silverstone Circuit",
+    "country": "United Kingdom",
+    "laps": 52,
+    "length_km": 5.891,
+    "fun_fact": "Hosted the first-ever Formula 1 World Championship race in 1950.",
+    "image": "images/ciruits/Singapore_Circuit.avif"
+  },
+  {
+    "name": "Circuit Gilles Villeneuve",
+    "country": "Canada",
+    "laps": 70,
+    "length_km": 4.361,
+    "fun_fact": "Famous for its 'Wall of Champions' at the final chicane.",
+    "image": "images/ciruits/Canada_Circuit.avif"
+  },
+  {
+    "name": "Circuit of the Americas",
+    "country": "USA",
+    "laps": 56,
+    "length_km": 5.513,
+    "fun_fact": "Known for its dramatic uphill first corner with a 41m elevation change.",
+    "image": "images/ciruits/USA_Circuit.avif"
+  },
+  {
+    "name": "Las Vegas Strip Circuit",
+    "country": "USA",
+    "laps": 50,
+    "length_km": 6.201,
+    "fun_fact": "Races through the heart of Las Vegas with neon lights all around.",
+    "image": "images/ciruits/Las_Vegas_Circuit.avif"
+  },
+  {
+    "name": "Miami International Autodrome",
+    "country": "USA",
+    "laps": 57,
+    "length_km": 5.412,
+    "fun_fact": "Built around the Hard Rock Stadium with fake marina views.",
+    "image": "images/ciruits/Miami_Circuit.avif"
+  },
+  {
+    "name": "Circuit Zandvoort",
+    "country": "Netherlands",
+    "laps": 72,
+    "length_km": 4.259,
+    "fun_fact": "Features steep banking and an electric orange crowd for Max Verstappen.",
+    "image": "images/ciruits/Netherlands_Circuit.avif"
+  },
+  {
+    "name": "Hungaroring",
+    "country": "Hungary",
+    "laps": 70,
+    "length_km": 4.381,
+    "fun_fact": "Often compared to a karting track due to its tight corners.",
+    "image": "images/ciruits/Hungary_Circuit.avif"
+  },
+  {
+    "name": "Marina Bay Street Circuit",
+    "country": "Singapore",
+    "laps": 62,
+    "length_km": 4.940,
+    "fun_fact": "F1’s original night race, known for its extreme humidity and stunning lights.",
+    "image": "images/ciruits/Singapore_Circuit.avif"
+  },
+  {
+    "name": "Losail International Circuit",
+    "country": "Qatar",
+    "laps": 57,
+    "length_km": 5.419,
+    "fun_fact": "Originally built for MotoGP, it’s now one of F1’s newest night tracks.",
+    "image": "images/ciruits/Qatar_Circuit.avif"
+  },
+  {
+    "name": "Interlagos (Autódromo José Carlos Pace)",
+    "country": "Brazil",
+    "laps": 71,
+    "length_km": 4.309,
+    "fun_fact": "A fan favorite known for dramatic races and unpredictable weather.",
+    "image": "images/ciruits/Brazil_Circuit.avif"
+  },
+  {
+    "name": "Circuit de Barcelona-Catalunya",
+    "country": "Spain",
+    "laps": 66,
+    "length_km": 4.657,
+    "fun_fact": "Known as a testing venue due to its variety of corner types.",
+    "image": "images/ciruits/Spain_Circuit.avif"
+  },
+  {
+    "name": "Imola (Autodromo Enzo e Dino Ferrari)",
+    "country": "Italy",
+    "laps": 63,
+    "length_km": 4.909,
+    "fun_fact": "One of the oldest and most technical European tracks.",
+    "image": "images/ciruits/Emilia_Romagna_Circuit.avif"
+  },
+  {
+    "name": "Shanghai International Circuit",
+    "country": "China",
+    "laps": 56,
+    "length_km": 5.451,
+    "fun_fact": "Known for its snail-shaped first sector that tests car balance.",
+    "image": "images/ciruits/China_Circuit.avif"
+  },
+  {
+    "name": "Yas Marina Circuit",
+    "country": "Abu Dhabi",
+    "laps": 58,
+    "length_km": 5.281,
+    "fun_fact": "Hosts the season finale at sunset — from day to night under the lights.",
+    "image": "images/ciruits/Abu_Dhabi_Circuit (1).avif"
+  }
+]

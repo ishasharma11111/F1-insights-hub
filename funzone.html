@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fun Zone - F1 Insights Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader">
+  <div class="loading-text">F1 INSIGHTS HUB</div>
+</div>
+
+  <header>
+    <h1>F1 Insights Hub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="drivers.html">Drivers</a>
+      <a href="circuits.html">Circuits</a>
+      <a href="funzone.html" class="active">Fun Zone</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="fun-section">
+    <h2>Welcome to the F1 Fun Zone 🎮</h2>
+    <p>Test your F1 knowledge and reflexes!</p>
+
+    <div class="fun-buttons">
+      <button id="quizGameBtn">Start Quiz</button>
+      <button id="reactionGameBtn">Reaction Test</button>
+      <button id="guessCarBtn">Guess the F1 Car</button>
+    </div>
+
+    <div id="gameArea"></div>
+  </main>
+
+  <footer>
+    <p>2025 F1 Insights Hub | Created by Isha Sharma</p>
+  </footer>
+
+  <script src="quiz.js"></script>
+  <script>
+  const currentPage = window.location.pathname.split("/").pop();
+  document.querySelectorAll("nav a").forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
+</script>
+
+</body>
+</html>
