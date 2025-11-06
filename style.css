@@ -777,3 +777,270 @@ nav a.active {
     height: 160px;
   }
 }
+/* Navbar base styling */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* space between menu items */
+  text-align: center;
+}
+
+/* Navbar items */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 6px 10px;
+  transition: color 0.3s ease;
+}
+
+/* Active link */
+nav a.active {
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+/* Mobile view fix */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column; /* items ek ke neeche ek aayenge */
+    gap: 8px;
+  }
+  nav a {
+    font-size: 0.95rem;
+  }
+}
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap; /* text wrap na ho */
+  overflow: visible;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+/* --- DRIVERS PAGE FIX --- */
+.drivers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.driver-card {
+  width: 220px;
+  background: #111;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.driver-card:hover {
+  transform: translateY(-5px);
+}
+
+.driver-card img {
+  width: 100%;
+  height: 250px;           /* 🔹 same height for all images */
+  object-fit: cover;       /* 🔹 crops neatly instead of stretching */
+  border-radius: 10px;
+}
+
+.driver-card h3 {
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+}
+
+.driver-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+.drivers-section {
+  background: #000;
+  padding-bottom: 40px;
+}
+.drivers-section h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+/* 🔥 Hover effect same as home cards */
+.driver-card {
+  width: 220px;
+  background: #111;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  padding: 15px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.driver-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4); /* 🔴 soft red glow like F1 vibe */
+}
+
+.driver-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* image zoom in slightly on hover */
+.driver-card:hover img {
+  transform: scale(1.08);
+}
+/* 🔥 Intro Animation */
+#intro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.intro-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+  filter: brightness(0.5);
+}
+
+.intro-text {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  animation: fadeZoom 2.5s ease-in-out forwards;
+}
+
+@keyframes fadeZoom {
+  0% { opacity: 0; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.1); }
+}
+/* =====================
+   INTRO ANIMATION (Image + Text)
+===================== */
+#intro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  z-index: 9999;
+  animation: fadeOut 1s ease-out 3.3s forwards;
+}
+
+/* 🔹 Racing background animation */
+.intro-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.3);
+  animation: bgZoomFade 3s ease-in-out forwards;
+}
+
+/* 🔹 Dark overlay for focus */
+.intro-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.95));
+}
+
+/* 🔹 Text animation */
+.intro-text {
+  font-family: 'Formula1 Display', sans-serif;
+  color: #ffffff;
+  font-size: 3rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-shadow: 0 0 20px #ff0000, 0 0 40px #ff5500;
+  opacity: 0;
+  transform: translateY(40px);
+  animation: textSlide 2s ease-out 0.6s forwards;
+}
+
+/* 🔸 Keyframes */
+@keyframes bgZoomFade {
+  0% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes textSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
